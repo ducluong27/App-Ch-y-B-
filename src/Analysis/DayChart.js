@@ -35,7 +35,6 @@ export default function DayChart(items) {
             }
         }
     }
-    const tempYear=year.toString()
     handleDay(year,month);
     // tempDay.push("31-12-"+tempYear);
     // console.log(tempDay);

@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import Background from '../Images/bg1.jpg'
 export const Title=styled.h3`
     color: #838380;
     font-size: 40px;
@@ -23,7 +22,7 @@ export const DetailsInfoItem=styled.span`
     color: #2c7f9b;
 `   
 export const BackgroundArChievement = styled.div`
-background-image: linear-gradient(-90deg,#919191, #acf7f7, #f7f5aa,#8cf773,#f7a3af);
+background-image: linear-gradient(-90deg,#acf7f7);
 `
 export const ArchievementItemBG = styled.div`
     background-color: #e5f1f8;

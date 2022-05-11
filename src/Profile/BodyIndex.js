@@ -29,14 +29,14 @@ function BodyIndex() {
         for (let index = 0; index < items.length; index++) {
             total=total+parseFloat(items[index].distance)
         }
-        return total/(items.length);
+        return (total/(items.length)).toFixed(2);
     }
     const CaloAverage =()=>{
         let total=0;
         for (let index = 0; index < itemsCalo.length; index++) {
             total=total+parseFloat(itemsCalo[index])
         }
-        return total/(itemsCalo.length);
+        return (total/(itemsCalo.length)).toFixed(2);
     }
     return (
     <div>
